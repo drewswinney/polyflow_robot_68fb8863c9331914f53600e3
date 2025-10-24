@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>webrtc</name>
+  <version>0.0.1</version>
+  <description>Polyflow ROS 2 package for WebRTC robot bridge</description>
+
+  <maintainer email="drew@polyflow.app">Drew Swinney</maintainer>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <!-- External PyPI deps -->
+  <exec_depend>aiortc</exec_depend>
+  <exec_depend>websockets</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
